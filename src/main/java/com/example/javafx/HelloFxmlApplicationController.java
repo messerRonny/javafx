@@ -39,7 +39,7 @@ public class HelloFxmlApplicationController {
     @FXML
     public void onAbout(ActionEvent actionEvent) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Information Dialog");
+        alert.setTitle("Information Dialog for testing");
         alert.setHeaderText("Look, an Information Dialog");
         alert.setContentText("I have a great message for you!");
 
